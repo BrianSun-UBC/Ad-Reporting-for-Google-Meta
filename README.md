@@ -1,41 +1,48 @@
-Ad Analysis for Facebook
-Ad Analysis for Facebook is temporarily disabled. Facebook has blocked this extension, so it will no longer show you how you're targeted by advertisers. Learn more
+# Ad Analysis for Facebook
 
-Get the extension from Add-ons for Firefox (en-US).
+---
 
-How Facebook Helps Advertisers Target You
+## How Facebook Helps Advertisers Target You
+
 If you use Facebook, it probably comes as no surprise that Facebook collects a lot of information about you. This includes information you’ve shared about yourself as well as information about your activity on Facebook and other websites — things like check-ins, searches, and status updates.
 
 What you may not know is that even when you haven’t shared interests, Facebook makes guesses about your views and preferences based on your activity. This is also used to target you, but it’s not as easy for you to see this. When you use Ad Analysis for Facebook, you can see what Facebook knows about you and how that affects the advertising you see. You can also compare a wide range of targets shared as a public data set by thousands of other Facebook users.
 
-Peek Outside Your Filter Bubble
+## Peek Outside Your Filter Bubble
+
 Seeing how and why you’re targeted for advertising is one way to examine how Facebook shapes the content you’re likely to see and how that might influence your opinions and beliefs. But what about the advertising you don’t see?
 
 Facebook maintains its own Ad Archive, which offers Facebook users a simple keyword search tool to view ads related to politics or issues of national importance.
 
 The Ad Archive is useful if you know what you are looking for, but may not help you if you are trying to answer questions like “Who is spending the most money on political ads in my state?” or “If I am a Millennial, do I see different ads than Baby Boomers?” With Ad Analysis for Facebook, you can view top advertisers; filter advertisers by state, gender, and age; and link to advertisers’ ads in the Facebook Ad Archive.
 
-Credits
+## Credits
+
 This extension is one of several tools developed by Firefox Research to help you understand how websites use your personal information and how that affects what you see — and what you don't — online.
 
 This extension uses the public data sets collected by ProPublica and New York University.
 
-The Political Ad Collector, created by independent news organization ProPublica, gathers targeted political advertising on Facebook into a database of micro-targeted political ads.
+The [Political Ad Collector](http://projects.propublica.org/facebook-ads/), created by independent news organization ProPublica, gathers targeted political advertising on Facebook into a database of micro-targeted political ads.
 
-The Online Political Ads Transparency Project is a collaboration by NYU Tandon doctoral student Laura Edelson, NYU Shanghai visiting undergraduate student Shikhar Sakhuja, and Damon McCoy, Assistant Professor of Computer Science and Engineering.
+The [Online Political Ads Transparency Project](https://engineering.nyu.edu/online-political-ads-transparency-project/) is a collaboration by NYU Tandon doctoral student Laura Edelson, NYU Shanghai visiting undergraduate student Shikhar Sakhuja, and Damon McCoy, Assistant Professor of Computer Science and Engineering.
 
-Instructions
-Load the Add-on in Firefox
-Enter about:debugging in the address bar. Load the Add-on as a temporary extension by selecting dist/manifest.json.
+# Instructions 
 
-Set up a development environment
+## Load the Add-on in Firefox
+
+Enter `about:debugging` in the address bar. Load the Add-on as a temporary extension by selecting `dist/manifest.json`.
+
+## Set up a development environment
+
 To install the required libraries, run:
-
+```
 npm install
+```
+
 To start the continuous build system, run:
-
+```
 npm start
-The above script will automatically monitor the src folder and regenerate relevant files in the dist folder including linting *.js files, minifying *.js and *.html files, and compiling *.less into *.css.
+```
+The above script will automatically monitor the `src` folder and regenerate relevant files in the `dist` folder including linting `*.js` files, minifying `*.js` and `*.html` files, and compiling `*.less` into `*.css`.
 
-Source code
-GitHub for the disabled extension
+## Source code
