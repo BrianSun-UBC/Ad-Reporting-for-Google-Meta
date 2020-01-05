@@ -16,16 +16,6 @@ Facebook maintains its own Ad Archive, which offers Facebook users a simple keyw
 
 The Ad Archive is useful if you know what you are looking for, but may not help you if you are trying to answer questions like “Who is spending the most money on political ads in my state?” or “If I am a Millennial, do I see different ads than Baby Boomers?” With Ad Analysis for Facebook, you can view top advertisers; filter advertisers by state, gender, and age; and link to advertisers’ ads in the Facebook Ad Archive.
 
-## Credits
-
-This extension is one of several tools developed by Firefox Research to help you understand how websites use your personal information and how that affects what you see — and what you don't — online.
-
-This extension uses the public data sets collected by ProPublica and New York University.
-
-The [Political Ad Collector](http://projects.propublica.org/facebook-ads/), created by independent news organization ProPublica, gathers targeted political advertising on Facebook into a database of micro-targeted political ads.
-
-The [Online Political Ads Transparency Project](https://engineering.nyu.edu/online-political-ads-transparency-project/) is a collaboration by NYU Tandon doctoral student Laura Edelson, NYU Shanghai visiting undergraduate student Shikhar Sakhuja, and Damon McCoy, Assistant Professor of Computer Science and Engineering.
-
 # Instructions 
 
 ## Load the Add-on in Firefox
@@ -44,5 +34,3 @@ To start the continuous build system, run:
 npm start
 ```
 The above script will automatically monitor the `src` folder and regenerate relevant files in the `dist` folder including linting `*.js` files, minifying `*.js` and `*.html` files, and compiling `*.less` into `*.css`.
-
-## Source code
