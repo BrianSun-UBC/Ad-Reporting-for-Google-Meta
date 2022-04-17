@@ -1,4 +1,4 @@
-# Exporting Google/Meta Ads data 
+# Exporting Google/Meta Ads Data (Prototype)
 
 This script was built to export Meta/Google Ads data to Google Sheets on a recurring basis for use in a dashboard.
 
