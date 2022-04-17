@@ -1,6 +1,6 @@
-# Exporting Google/Meta Ads data to Google Sheets
+# Exporting Google/Meta Ads data 
 
-This script was built to export Facebook Ads data to Google Sheets on a recurring basis for use in a dashboard.
+This script was built to export Meta/Google Ads data to Google Sheets on a recurring basis for use in a dashboard.
 
 In order to bypass limits around the amount of data that can be processed by the Facebook Marketing API and [Google App Script's
 6 minute runtime maximum](https://developers.google.com/apps-script/guides/services/quotas), the script makes [asynchronous requests](https://developers.facebook.com/docs/marketing-api/asyncrequests/) to the Facebook Marketing API.
