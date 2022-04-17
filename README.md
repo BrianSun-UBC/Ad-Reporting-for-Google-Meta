@@ -1,4 +1,4 @@
-# Exporting Facebook Ads data to Google Sheets
+# Exporting Google/Meta Ads data to Google Sheets
 
 This script was built to export Facebook Ads data to Google Sheets on a recurring basis for use in a dashboard.
 
